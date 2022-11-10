@@ -30,9 +30,21 @@
 }
 
 .modal_submit {
+  width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   margin-top: 10px;
+  align-items: center;
+}
+
+.err {
+  color: #fff;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.buttons {
+  display: flex;
   align-items: center;
 }
 
